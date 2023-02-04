@@ -28,6 +28,25 @@
 </style>
 
     <title>Markopoulos</title>
+    <form>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <button type="submit">Input</button>
+</form>
+
+<script>
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+    const email = form.elements.email.value;
+    // Add your code here to send a notification via email
+    alert("Thank you! You will receive a confirmation email at " + email);
+  });
+</script>
+
   </head>
   <body>
   <body style="background-color: white;">
