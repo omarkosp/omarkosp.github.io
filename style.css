@@ -3,6 +3,18 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+.twitter-follow-button {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 @keyframes gradient {
   0% {
