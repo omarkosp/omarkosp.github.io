@@ -58,4 +58,11 @@
   100% {
     background-position: 0% 50%;
   }
+  .large-box {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
 }
