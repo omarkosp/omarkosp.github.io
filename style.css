@@ -58,11 +58,19 @@
   100% {
     background-position: 0% 50%;
   }
-  .large-box {
-  width: 50%;
-  padding: 20px;
-  margin: 20px;
-  background-color: #f7f7f7;
-  text-align: center;
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.box {
+  width: 1200px;
+  height: 475px;
+  position: absolute;
+  top: 850px;
+  left: 850px;
+  background-color: #ccc; /* Change the color to your preference */
 }
 }
