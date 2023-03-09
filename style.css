@@ -50,16 +50,6 @@ body {
   text-align: center;
   
 }
-.large-box {
-          position: absolute;
-          top: 790px;
-          left: 260px;
-		  width: 40%;
-		  padding: 100px;
-          margin: 100px;
-          background-color: #f7f7f7;
-          text-align: center;
-		}
 
 @keyframes gradient {
   0% {
