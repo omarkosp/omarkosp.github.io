@@ -50,7 +50,16 @@ body {
   text-align: center;
   
 }
-
+.large-box {
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
