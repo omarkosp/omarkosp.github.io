@@ -110,11 +110,31 @@ s
 
 
 
- <!-- Calendly badge widget begin -->
+<style>
+  .calendly-badge-content {
+    position: fixed;
+    right: 20px;
+    bottom: 20px; /* adjust this value to move the widget up or down */
+    z-index: 9999;
+  }
+</style>
+
+<!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/panayiotismarkopoulos/introduction', text: 'Schedule time with me', color: '#003bff', textColor: '#ffffff', branding: true }); }</script>
+<script type="text/javascript">
+  window.onload = function() {
+    Calendly.initBadgeWidget({
+      url: 'https://calendly.com/panayiotismarkopoulos/introduction',
+      text: 'Schedule time with me',
+      color: '#003bff',
+      textColor: '#ffffff',
+      branding: true
+    });
+  }
+</script>
 <!-- Calendly badge widget end -->
+
 
 
   <script>
